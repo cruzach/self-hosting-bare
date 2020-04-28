@@ -24,6 +24,8 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UILaunchImageFile</key>
+	<string></string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
@@ -52,7 +54,7 @@
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Allow bare37 to access your microphone</string>
 	<key>NSMotionUsageDescription</key>
-	<string>Allow bare37 to access your device's accelerometer</string>
+	<string>Allow bare37 to access your device&apos;s accelerometer</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Give bare37 periences permission to save photos</string>
 	<key>NSPhotoLibraryUsageDescription</key>

@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Image } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Made a change!</Text>
+      <Text>Made another change!</Text>
       <Image
         source={require("./assets/kevin.jpg")}
         style={{ height: 200, width: 300 }}
