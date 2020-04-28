@@ -8,20 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0731D3BE24204D9B009CAE85 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0731D3BB24204D9B009CAE85 /* Expo.plist */; };
-		074F4BDE2432834300BDB9FE /* app.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07287ACD2432831900C893F0 /* app.bundle */; };
-		074F4BDF2432834300BDB9FE /* app.manifest in Resources */ = {isa = PBXBuildFile; fileRef = 07287ACC2432831900C893F0 /* app.manifest */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7B0C5784998A29E517983E0C /* libPods-bare37.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2502ACF51380E8237829647D /* libPods-bare37.a */; };
+		FC2F7D2E2458CF4C00F45A01 /* app.manifest in Resources */ = {isa = PBXBuildFile; fileRef = FC2F7D2C2458CF4C00F45A01 /* app.manifest */; };
+		FC2F7D2F2458CF4C00F45A01 /* app.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC2F7D2D2458CF4C00F45A01 /* app.bundle */; };
+		FC2F7D312458CF5800F45A01 /* 27e18637f21341de16d892dcdecee24d in Resources */ = {isa = PBXBuildFile; fileRef = FC2F7D302458CF5800F45A01 /* 27e18637f21341de16d892dcdecee24d */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		056F63395CAC2B8C2DC048FE /* Pods-bare37.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bare37.debug.xcconfig"; path = "Target Support Files/Pods-bare37/Pods-bare37.debug.xcconfig"; sourceTree = "<group>"; };
-		07287ACC2432831900C893F0 /* app.manifest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = app.manifest; path = bare37/Supporting/app.manifest; sourceTree = "<group>"; };
-		07287ACD2432831900C893F0 /* app.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = app.bundle; path = bare37/Supporting/app.bundle; sourceTree = "<group>"; };
 		0731D3BB24204D9B009CAE85 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Expo.plist; path = bare37/Supporting/Expo.plist; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* bare37.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bare37.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = bare37/AppDelegate.h; sourceTree = "<group>"; };
@@ -35,6 +34,9 @@
 		E40B1F720DE0D29BF6B90074 /* Pods-bare37.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bare37.release.xcconfig"; path = "Target Support Files/Pods-bare37/Pods-bare37.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		FC2F7D2C2458CF4C00F45A01 /* app.manifest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = app.manifest; path = ../../../Desktop/app.manifest; sourceTree = "<group>"; };
+		FC2F7D2D2458CF4C00F45A01 /* app.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = app.bundle; path = ../../../Desktop/app.bundle; sourceTree = "<group>"; };
+		FC2F7D302458CF5800F45A01 /* 27e18637f21341de16d892dcdecee24d */ = {isa = PBXFileReference; lastKnownFileType = file; name = 27e18637f21341de16d892dcdecee24d; path = ../dist/assets/27e18637f21341de16d892dcdecee24d; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +59,12 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
+				FC2F7D302458CF5800F45A01 /* 27e18637f21341de16d892dcdecee24d */,
+				FC2F7D2D2458CF4C00F45A01 /* app.bundle */,
+				FC2F7D2C2458CF4C00F45A01 /* app.manifest */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				0731D3BB24204D9B009CAE85 /* Expo.plist */,
-				07287ACD2432831900C893F0 /* app.bundle */,
-				07287ACC2432831900C893F0 /* app.manifest */,
 			);
 			name = bare37;
 			sourceTree = "<group>";
@@ -176,10 +179,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				074F4BDE2432834300BDB9FE /* app.bundle in Resources */,
-				074F4BDF2432834300BDB9FE /* app.manifest in Resources */,
 				0731D3BE24204D9B009CAE85 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				FC2F7D2E2458CF4C00F45A01 /* app.manifest in Resources */,
+				FC2F7D2F2458CF4C00F45A01 /* app.bundle in Resources */,
+				FC2F7D312458CF5800F45A01 /* 27e18637f21341de16d892dcdecee24d in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

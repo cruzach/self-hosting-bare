@@ -5,10 +5,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Made another change!</Text>
-      <Image
-        source={require("./assets/kevin.jpg")}
-        style={{ height: 200, width: 300 }}
-      />
+      <Text>Made another change!</Text>
+      <Text>Made another change!</Text>
     </View>
   );
 }
